@@ -36,14 +36,9 @@ jobs:
 
       - run: git config user.name github-actions
       - run: git config user.email github-actions@github.com
-      # - run: git push -d origin gh-pages
-      # - run: git branch -d gh-pages
-      # - run: git branch gh-pages
       - run: git pull
       - run: git checkout -b gh-pages origin/gh-pages
-      # - run: git fetch origin gh-pages
       - run: git pull
-      # - run: git merge --allow-unrelated-histories main
       - run: git reset --hard main
       - name: Install
         run: npm install
