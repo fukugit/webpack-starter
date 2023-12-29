@@ -33,3 +33,9 @@ When you run `npm run build` we use the [mini-css-extract-plugin](https://github
 ### Features for programing
 - Tailwindcss
 - Bootstrap
+
+
+### demo
+[demo page](https://fukugit.github.io/webpack-starter/index.html)
+
+
