@@ -1,4 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 $body-color: slateblue;
+
+@import "~bootstrap/scss/bootstrap";
 
 body {
   color: $body-color;
